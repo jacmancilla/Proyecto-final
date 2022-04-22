@@ -1,39 +1,11 @@
-import React, { useState } from 'react';
-import {
-  SafeAreaView,
-  Text,
+import React from 'react'
+import Main from './src/components/Main'
+import { NativeRouter } from 'react-router-native'
 
-  StyleSheet,
-
-  Pressable,
-
-} from 'react-native';
-
-
-const App = () => {
-
-
-
-  //
+export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.titulo}>Cruelty Scan</Text>
-
-    </SafeAreaView>
-  );
-};
-
-/* CSS */
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  titulo: {
-    textAlign: 'center',
-    fontSize: 30,
-    fontWeight: '600',
-  },
-});
-
-export default App;
+    <NativeRouter>
+      <Main />
+    </NativeRouter>
+  )
+}
