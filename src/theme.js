@@ -5,6 +5,10 @@ const theme = {
     textoPrimario: '#000',
     textSecundario: '#9F9E9E'
   },
+  titulo: {
+    fondo: '#cee5d0'
+
+  },
   boton: {
     primario: '#cee5d0',
     secundario: '#d9d7f1',

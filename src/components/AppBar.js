@@ -9,6 +9,7 @@ const AppBar = () => {
       <ScrollView showsHorizontalScrollIndicator={false} horizontal style={styles.scroll}>
         <AppBarTab to='/'>Inicio</AppBarTab>
         <AppBarTab to='/registro'>Registro</AppBarTab>
+        <AppBarTab to='/menu'>Menu</AppBarTab>
         <AppBarTab to='/scan'>Scan</AppBarTab>
       </ScrollView>
     </View>
