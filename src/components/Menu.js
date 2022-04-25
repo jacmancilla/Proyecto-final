@@ -54,7 +54,7 @@ const Menu = () => {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: theme.boton.primario,
-        height: 180
+        height: 200
 
     },
 
